@@ -1,0 +1,13 @@
+# Copy to accounts.local.yaml and edit labels only.
+# Do not place email, password, cookies, tokens, or exported browser data here.
+accounts:
+  - id: account_01
+    enabled: true
+    browser_context: local-browser-profile-01
+    capabilities: ["GEMINI", "GEMINI_IMAGE"]
+    task_types: ["TEXT", "BLOG", "SEO", "IMAGE"]
+  - id: account_02
+    enabled: true
+    browser_context: local-browser-profile-02
+    capabilities: ["FLOW", "GEMINI_GEM"]
+    task_types: ["VIDEO", "MOTION"]

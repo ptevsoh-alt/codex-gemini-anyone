@@ -1,0 +1,46 @@
+# Local configuration and identity-bearing state
+.env
+.env.*
+!.env.example
+config/*.local.*
+config/*local*
+accounts*.local.*
+gems*.local.*
+paths*.local.*
+
+# Browser and authentication state
+cookies*
+sessions*
+credentials*
+auth*
+tokens*
+secrets*
+login-data*
+local-state*
+browser-profile/
+chrome-profile/
+browser-data/
+user-data/
+
+# Runtime state and generated artifacts
+.local/
+workspace/
+downloads/
+output/
+incoming/
+processing/
+tmp/
+cache/
+logs/
+*.log
+*.tmp
+
+# Node and OS files
+node_modules/
+dist/
+build/
+coverage/
+.nyc_output/
+.DS_Store
+Thumbs.db
+

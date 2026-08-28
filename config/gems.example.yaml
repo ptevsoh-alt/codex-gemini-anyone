@@ -1,0 +1,17 @@
+# Gem records are logical labels. The runtime never stores login state.
+gems:
+  - id: gem_01
+    display_name: My Text Gem
+    account_id: account_01
+    provider: GEMINI_GEM
+    capabilities: ["TEXT", "BLOG", "SEO"]
+  - id: gem_02
+    display_name: My Visual Gem
+    account_id: account_01
+    provider: GEMINI_GEM
+    capabilities: ["IMAGE"]
+  - id: gem_03
+    display_name: My Flow Gem
+    account_id: account_02
+    provider: GEMINI_GEM
+    capabilities: ["VIDEO", "MOTION"]

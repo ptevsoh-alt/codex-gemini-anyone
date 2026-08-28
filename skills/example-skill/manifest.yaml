@@ -1,0 +1,11 @@
+skill_id: example.general
+version: 1.0.0
+description: A minimal manifest-only skill showing the public extension contract.
+triggers: ["example", "summarize", "handoff", "blog"]
+capabilities: ["TEXT", "BLOG"]
+dependencies: []
+execution_mode: HANDOFF_ONLY
+input:
+  required: ["request"]
+output:
+  provides: ["summary", "handoff_notes"]

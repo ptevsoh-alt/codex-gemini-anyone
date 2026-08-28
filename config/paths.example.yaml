@@ -1,0 +1,6 @@
+# All paths are local to the device and intentionally ignored by Git.
+workspace_root: ./workspace
+skills_root: ./skills
+downloads_root: ./downloads
+output_root: ./output
+

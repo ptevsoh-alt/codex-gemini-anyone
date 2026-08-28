@@ -1,0 +1,5 @@
+runtime_mode: HANDOFF_ONLY
+default_provider_text: GEMINI
+default_provider_image: GEMINI_IMAGE
+default_provider_video: FLOW
+
