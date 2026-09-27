@@ -4,8 +4,13 @@
   "private": false,
   "description": "Portable, configuration-driven task routing and human handoff runtime for Gemini and Flow web workflows.",
   "type": "commonjs",
-  "engines": { "node": ">=18" },
-  "bin": { "codex-gemini-anyone": "./bin/codex-gemini.js" },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "codex-gemini-anyone": "./bin/codex-gemini.js"
+  },
   "scripts": {
     "test": "node --test tests/*.test.js",
     "security:scan": "node scripts/security-scan.js",
@@ -13,6 +18,22 @@
     "route": "node bin/codex-gemini.js route",
     "handoff": "node bin/codex-gemini.js handoff",
     "start": "node bin/codex-gemini.js start"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptevsoh-alt/codex-gemini-anyone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ptevsoh-alt/codex-gemini-anyone/issues"
+  },
+  "homepage": "https://github.com/ptevsoh-alt/codex-gemini-anyone#readme",
+  "keywords": [
+    "codex",
+    "gemini",
+    "workflow",
+    "task-routing",
+    "skills",
+    "handoff",
+    "nodejs"
+  ]
 }
-
