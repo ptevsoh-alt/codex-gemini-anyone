@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   test:
-    name: Node \${{ matrix.node }}
+    name: Node ${{ matrix.node }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -28,7 +28,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: \${{ matrix.node }}
+          node-version: ${{ matrix.node }}
 
       - name: Run tests
         run: npm test
